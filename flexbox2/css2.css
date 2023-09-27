@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ini {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.end div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.end {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 9.5%;
+}
+
+#start div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#start {
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 10.5%;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+#center {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+#center div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    justify-content:space-around;
+}
